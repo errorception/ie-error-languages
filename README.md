@@ -12,4 +12,13 @@ These have been extracted painstakingly by the awesome [Rajasekharan Vengalil](h
 
 In addition to the steps above, I've also converted the files from their original encoding of UCS2 (UTF16LE) to UTF8 before putting it up here.
 
-Cheers!
+Read the [blog post](http://blog.errorception.com/2013/07/ies-i18n-strings-for-error-messages.html).
+
+Format of the files
+---
+
+* The files are named by their locale names.
+* Everything before the first `,` (comma) is the ID of the error message, and helps you build a mapping between the language files.
+* The stuff after that first comma is the i18n error string.
+
+Easy peasy!
